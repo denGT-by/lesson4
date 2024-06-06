@@ -1,0 +1,19 @@
+int[] numbers = new int[] { 1, 3, 5, 7, 11, 13, 17 };
+
+Console.WriteLine("Квадраты чисел");
+Console.WriteLine();
+Console.WriteLine("Дан ряд чисел:");
+
+int numberOfRange = 0;
+
+while (numberOfRange < numbers.Length)
+{
+    Console.Write($"{numbers[numberOfRange]} ");
+    numberOfRange++;
+}
+
+for (int i = 0; i < numbers.Length; i++) 
+{ 
+    Console.WriteLine();
+    Console.Write($"Квадраты этих чисел: {numbers[i] * numbers[i]}");
+}
