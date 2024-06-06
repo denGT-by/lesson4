@@ -12,8 +12,9 @@ while (numberOfRange < numbers.Length)
     numberOfRange++;
 }
 
+Console.WriteLine();
+
 for (int i = 0; i < numbers.Length; i++) 
 { 
-    Console.WriteLine();
     Console.Write($"Квадраты этих чисел: {numbers[i] * numbers[i]}");
 }
