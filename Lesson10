@@ -9,11 +9,19 @@ int input = Convert.ToInt32(Console.ReadLine());
 
 int thimble = --input;
 
-if (thimbles[thimble])
+if(thimble >=0 && thimble <= 2)
 {
-    Console.WriteLine("Да! Вы нашли шарик!");
+    if (thimbles[thimble])
+    {
+        Console.WriteLine("Да! Вы нашли шарик!");
+    }
+    else
+    {
+        Console.WriteLine("Нет! Вы не угадали!");
+    }
 }
 else
 {
-    Console.WriteLine("Нет! Вы не угадали!");
+    Console.WriteLine("Не правильно указан номер напёрстка!!!");
 }
+
