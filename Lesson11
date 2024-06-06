@@ -11,10 +11,10 @@ while (numberOfRange < numbers.Length)
     Console.Write($"{numbers[numberOfRange]} ");
     numberOfRange++;
 }
-
 Console.WriteLine();
+Console.WriteLine("Квадраты этих чисел:");
 
 for (int i = 0; i < numbers.Length; i++) 
 { 
-    Console.Write($"Квадраты этих чисел: {numbers[i] * numbers[i]}");
+    Console.Write($"{numbers[i] * numbers[i]} ");
 }
